@@ -19,17 +19,17 @@ var keyZones = [
                 //Start:
                 [13],
                 //Right:
-                [39],
+                [39,68],
                 //Left:
-                [37],
+                [37,65],
                 //Up:
-                [38],
+                [38,87],
                 //Down:
-                [40],
+                [40,82],
                 //R:
-                [50],
+                [50,219],
                 //L:
-                [49]
+                [49,220]
 ];
 function keyDown(e) {
     var keyCode = e.keyCode | 0;
